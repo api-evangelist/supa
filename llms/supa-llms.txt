@@ -1,0 +1,12 @@
+# SUPA
+
+> SUPA is an AI data infrastructure company that helps machine learning teams build high-quality training datasets through a blend of technology and expert human annotation. It provides data labeling and curation services — RLHF, LLM training, semantic segmentation, classification, and medical imaging — backed by domain-expert networks across healthcare, manufacturing, robotics, agriculture, design, and industrial sectors. SUPA does not publish a public developer API; engagement is through its sales/contact channels.
+
+## Company
+- [Website](https://supa.so): Company homepage and services overview.
+- [Blog](https://blog.supa.so): Product, dataset, and company updates.
+- [Hugging Face (Supa-AI)](https://huggingface.co/Supa-AI): Published datasets.
+
+## Notes
+- No public API, SDK, MCP server, or developer portal was found (all common developer and /.well-known/ surfaces returned 404 as of 2026-07-21).
+- Backed by 500 Global. Surfaced in the API Evangelist network as a company profile.

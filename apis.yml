@@ -1,7 +1,29 @@
 aid: supa
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/supa.png
 name: SUPA
-description: SUPA is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SUPA is an AI data infrastructure company that helps machine learning teams
+  build high-quality training datasets through a blend of technology and expert
+  human annotation. It delivers data labeling and curation services spanning
+  RLHF, LLM training, semantic segmentation, image classification, and medical
+  imaging annotation, drawing on domain-expert networks across healthcare,
+  manufacturing, robotics, agriculture, design, and industrial sectors. SUPA
+  claims annotation accuracy above 95% and delivery of over one million data
+  points per week. It publishes datasets on Hugging Face and is backed by 500
+  Global. As of enrichment, SUPA exposes no public developer API, SDK, MCP
+  server, or /.well-known/ discovery surface — engagement is through its
+  sales/contact channels.
 url: https://raw.githubusercontent.com/api-evangelist/supa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Data Labeling
+- Data Annotation
+- Training Data
+- Machine Learning
+- Artificial Intelligence
+- Data Curation
+- RLHF
+- Computer Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,14 @@ maintainers:
 common:
 - type: Website
   url: https://supa.so
+- type: Blog
+  url: https://blog.supa.so
+- type: DomainSecurity
+  url: security/supa-domain-security.yml
+- type: LLMsTxt
+  url: llms/supa-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
