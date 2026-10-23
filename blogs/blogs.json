@@ -9,6 +9,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://blog.supa.so/feed/",
+      "feed_url": "https://blog.supa.so/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://supa.so",
       "feed_url": "https://supa.so",
       "title": "",
@@ -16,6 +23,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 10,
+  "fetched": "2026-10-17T14:53:57Z"
 }
